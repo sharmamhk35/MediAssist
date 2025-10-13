@@ -6,9 +6,7 @@
   <title>MediAssist — Healthcare Made Simple</title>
 
   <style>
-    /* ==================================
-       🌿 COLOR VARIABLES
-    ================================== */
+   
     :root {
       --green-900: #0b5f3c;
       --green-700: #13885d;
@@ -18,9 +16,7 @@
       --card: #ffffff;
     }
 
-    /* ==================================
-       🧱 GLOBAL STYLES
-    ================================== */
+   
     html {
       scroll-behavior: smooth;
     }
@@ -48,9 +44,7 @@
       color: var(--green-900);
     }
 
-    /* ==================================
-       🧭 HEADER + NAVBAR
-    ================================== */
+   
     header {
       position: sticky;
       top: 0;
@@ -129,9 +123,7 @@
       transform: scale(1.05);
     }
 
-    /* ==================================
-       🏠 HERO SECTION
-    ================================== */
+  
     .hero {
       display: grid;
       grid-template-columns: 1fr 420px;
@@ -170,9 +162,7 @@
       font-size: 13px;
     }
 
-    /* ==================================
-       📋 FORM CARD
-    ================================== */
+  
     .card {
       background: var(--card);
       border-radius: 16px;
@@ -220,9 +210,7 @@
       transform: scale(1.03);
     }
 
-    /* ==================================
-       ⚙️ SERVICES & DOCTORS
-    ================================== */
+    
     .services {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -243,9 +231,7 @@
       transform: translateY(-4px);
     }
 
-    /* ==================================
-       ✨ ANIMATIONS
-    ================================== */
+    
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
       to { opacity: 1; transform: translateY(0); }
@@ -255,9 +241,7 @@
       animation: fadeIn 0.6s ease forwards;
     }
 
-    /* ==================================
-       📱 RESPONSIVENESS
-    ================================== */
+   
     @media (max-width: 900px) {
       .hero {
         grid-template-columns: 1fr;
@@ -296,7 +280,7 @@
 </head>
 
 <body>
-  <!-- HEADER -->
+
   <header>
     <div class="container nav">
       <div class="brand">
@@ -322,7 +306,7 @@
     </div>
   </header>
 
-  <!-- HERO SECTION -->
+
   <main class="container">
     <section class="hero">
       <div class="hero-left">
@@ -359,7 +343,7 @@
       </aside>
     </section>
 
-    <!-- SERVICES -->
+
     <section id="services">
       <h2>Our Services</h2>
       <div class="services">
@@ -382,7 +366,7 @@
       </div>
     </section>
 
-    <!-- DOCTORS -->
+ 
     <section id="doctors">
       <h2>Top Doctors</h2>
       <div style="display:flex;gap:14px;flex-wrap:wrap;">
@@ -407,7 +391,6 @@
       </p>
     </section>
 
-    <!-- FOOTER -->
     <footer id="contact">
       <div class="container card" style="margin-top:40px;">
         <h3>Get in touch</h3>
