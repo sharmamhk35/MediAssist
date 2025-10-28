@@ -72,3 +72,8 @@ Implement doctor search and filters
 Enable user login & dashboard
 
 Add real-time chat with doctors
+
+This is the landing page.
+
+<img width="1366" height="768" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/dd5ba04f-20ea-4a5c-a43b-13d1e1b71d4e" />
+
